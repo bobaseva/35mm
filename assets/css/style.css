@@ -9,7 +9,7 @@
 }
 
 /* General styles */
-body {
+body { 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,23 +18,70 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+#navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
 
 /* Header */
 header{
     background-color: #e8e8e8; 
 }
-img {
-    float: left;
-    width: 100px;
-    height: 100px;
+
+/* Logo and navigation Menu */
+
+#logi, #menu {
+    line-height: 100px;
 }
+
+#logo {
+    float: left;
+    margin-left: 50px;
+    margin-top: 0;
+    width: 20%;
+    height: 20%;
+}
+
+#menu {
+    float: right;
+    margin-right: 100px;
+    margin-top: 170px;
+    font-size: 180%;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #000000;
+    color: inherit;
+    }
+
+.active {
+    border-bottom: 1px solid #000000;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 30px;
+}
+
+
+
+
 /* Main content */
 main {
     background-color: #e8e8e8;
     /* Make main element take up any surplus space to pusj footer down */
     flex: 1 0 auto;
 }
+
 /* Footer */
 footer {
     background-color: #e8e8e8;
