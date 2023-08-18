@@ -22,7 +22,12 @@ body {
 
 /* Header */
 header{
-    background-color: #e8e8e8;
+    background-color: #e8e8e8; 
+}
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
 }
 /* Main content */
 main {
