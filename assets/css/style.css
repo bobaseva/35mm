@@ -26,7 +26,12 @@ body {
 
 /* Header */
 header{
-    background-color: #e8e8e8; 
+    background-color: #e8e8e8;
+    padding: 0 1rem;
+    position:fixed;
+    z-index: 99;
+    width: 100%;
+
 }
 
 /* Logo and navigation Menu */
@@ -72,31 +77,10 @@ header{
     margin-left: 30px;
 }
 
+/* About section */
 
 
 
-/* Main content */
-main {
-    background-color: #e8e8e8;
-    /* Make main element take up any surplus space to pusj footer down */
-    flex: 1 0 auto;
-}
-
-.about-text {
-    background-color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 100%;
-    margin-left: 30px;
-    float: left
-}
-
-.right-image {
-    float: right
-}
-
-h2 {
-    margin-left: 30px;
-}
 /* Inquiry Form */
 .contact {
     clear: left;
@@ -173,15 +157,12 @@ h2 {
 footer {
     background-color: #e8e8e8;
 }
+
 /* Social media icons alignment */
 #social {
-    margin-bottom: 70px;
-    text-align: center;
-}
-
-#social li {
     list-style-type: none;
-    display: inline;
-    margin-left: 50px;
-    margin-right: 50px;
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+    padding: 25px 0;
 }
