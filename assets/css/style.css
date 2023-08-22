@@ -114,16 +114,16 @@ main {
 }
 
 #about-text {
-    height: 50%;
     width: 50%;
     margin-bottom: 20px;
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
 }
 
 #about-text h2 {
     background-color: #e8e8e8;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 #about-text p {
@@ -132,14 +132,16 @@ main {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 70px;
+    margin-left: 80px;
+    text-align: start;
+    align-self: flex-start;
 }
 
-#about-image {
+#about-img {
     margin-bottom: 20px;
     display: flex;
     justify-content: flex-end;
-    margin-right: 70px;
+    margin-right: 80px;
 }
 
 
@@ -259,3 +261,7 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+}
+
+
+
