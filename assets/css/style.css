@@ -71,7 +71,39 @@ header a {
     margin-left: 30px;
 }
 
+/* Navbar dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #e8e8e8;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 4rem;
+}
+
+
+
 /* Main content */
+
+main {
+    background-color: #e8e8e8;
+    flex: 1 0 auto;
+    margin-top: 0px;
+}
 
 /* About section */
 
