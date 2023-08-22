@@ -44,9 +44,9 @@ header a {
 }
 
 #menu {
-    margin-right: 100px;
-    margin-bottom: 100px;
-    font-size: 180%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 145%;
     letter-spacing: 12px;
     text-transform: uppercase;
 }
@@ -194,3 +194,34 @@ footer {
     text-align: center;
     padding: 25px 0;
 }
+
+
+/* Media query: for large devices (992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
