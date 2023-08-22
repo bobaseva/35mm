@@ -26,12 +26,15 @@
     <header>
         <a href="index.html">
             <img id="logo" src="assets/pictures/LOGO.png" alt="35mm Photography logo">
+        </a>
         <!-- Main navigation menu -->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="active" aria-label="Link to About and Home section">About</a></li>
+                <li><a href="index.html" aria-label="Link to About and Home section">About</a></li>
                 <li><a href="portfolio.html" aria-label="Link to Portfolio section">Portfolio</a></li>
-                <li><a href="contact.html" aria-label="Contact Form">Contact</a></li>
+                <li><a href="contact.html" class="active" aria-label="Contact Form">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -57,26 +60,23 @@
     </main>
     <!-- Footer -->
     <footer>
-        <div class="footer-social">
-            <ul id="social">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                        aria-label="Link to officail Instagram account"><i class="fa-brands fa-instagram fa-2xl"
-                            style="color: #000000;"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                        aria-label="Link to officail Youtube account"><i class="fa-brands fa-youtube fa-2xl"
-                            style="color: #000000;"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                        aria-label="Link to officail Facebook account"><i class="fa-brands fa-facebook fa-2xl"
-                            style="color: #000000;"></i></a>
-                </li>
-            </ul>
-        </div>
-
+        <ul id="social">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Link to official Instagram account"><i class="fa-brands fa-facebook fa-2xl"
+                        style="color: #000000;"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="Link to official Youtube account"><i class="fa-brands fa-twitter fa-2xl"
+                        style="color: #000000;"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Link to official Facebook account"><i class="fa-brands fa-instagram fa-2xl"
+                        style="color: #000000;"></i></a>
+            </li>
+        </ul>
     </footer>
 </body>
 

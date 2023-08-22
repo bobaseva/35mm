@@ -10,6 +10,9 @@
 
 /* General styles */
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     /* Generic project styles */
     color: #000000;
     font-family: 'Montserrat', sans-serif;
@@ -95,18 +98,49 @@ nav {
     font-size: 4rem;
 }
 
-
-
 /* Main content */
 
 main {
     background-color: #e8e8e8;
     flex: 1 0 auto;
-    margin-top: 0px;
+    margin-top: 150px;
 }
 
 /* About section */
 
+#about {
+    width: 100%;
+    margin: 20px auto;
+}
+
+#about-text {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#about-text h2 {
+    background-color: #e8e8e8;
+    margin-left: 80px;
+}
+
+#about-text p {
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 70px;
+}
+
+#about-image {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
 
 
 /* Inquiry Form */
