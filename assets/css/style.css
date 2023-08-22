@@ -144,6 +144,17 @@ main {
     margin-right: 80px;
 }
 
+/* Portfolio section */
+
+#photos img {
+    width: 100%;
+    height: auto;
+    line-height: 2rem;
+}
+
+#photos {
+    line-height: 2rem;
+}
 
 /* Inquiry Form */
 .contact {
@@ -191,19 +202,21 @@ main {
     height: 75px;
 }
 
-.submit-enquiry-button {
-    margin-top: 5px;
+.button {
+    margin-top: 20px;
     border-radius: 6px;
-    padding: 25px 42px 25px 42px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
     font-size: 100%;
-    background-color: #000000;
+    background-color: #e8e8e8;
     color: #000000;
     display: block;
     cursor: pointer;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
-.submit-enquiry-button:hover {
+.button:hover {
     background-color: #8f8e8e8c;
     color: #000000;
     cursor: pointer;
@@ -231,6 +244,13 @@ footer {
     padding: 25px 0;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 4;
+        column-gap: 1rem;
+    }
+}
 
 /* Media query: for large devices (992px and up) */
 @media screen and (min-width: 992px) {
