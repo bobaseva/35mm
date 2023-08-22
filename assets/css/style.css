@@ -38,13 +38,14 @@ header a {
 #logo {
     margin-left: 50px;
     margin-top: 0;
-    width: 40%;
-    height: 40%;
+    width: auto;
+    max-width: 200px;
+
 }
 
 #menu {
     margin-right: 100px;
-    margin-top: 120px;
+    margin-bottom: 100px;
     font-size: 180%;
     letter-spacing: 12px;
     text-transform: uppercase;
