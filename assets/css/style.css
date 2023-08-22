@@ -98,27 +98,20 @@ nav {
     font-size: 4rem;
 }
 
-/* Main content */
-
-main {
-    background-color: #e8e8e8;
-    flex: 1 0 auto;
-    margin-top: 150px;
-}
-
 /* About section */
 
 #about {
     width: 100%;
-    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e8e8e8;
+    flex: 1 0 auto;
+    margin-top: 50px;
 }
 
 #about-text {
-    width: 50%;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    margin-top: 150px
 }
 
 #about-text h2 {
@@ -129,18 +122,16 @@ main {
 #about-text p {
     background-color: #FFFFFF;
     padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     margin-left: 80px;
-    text-align: start;
-    align-self: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 80px;
 }
 
-#about-img {
+#about-image {
     margin-bottom: 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-right: 80px;
 }
 
@@ -164,7 +155,7 @@ main {
     background-size: cover;
     background-position: center;
     height: 800px;
-    margin-bottom: 1px;
+    margin-top: 100px;
 }
 
 .inquiry-form {
