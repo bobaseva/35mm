@@ -110,8 +110,15 @@ main {
 
 /* About section */
 
+.about-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e8e8e8;
+}
+
 .pic-ctn {
     width: 100%;
+    align-content: center;
 }
 
 @keyframes display {
@@ -144,7 +151,6 @@ main {
 .pic-ctn {
     position: relative;
     width: 100%;
-    height: 300px;
     margin-top: 50px;
 }
 
@@ -216,7 +222,7 @@ img:nth-child(8) {
 
 .contact {
     clear: left;
-    background-image: url(/assets/pictures/bg5.jpg);
+    background-image: url(../pictures/bg5.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
