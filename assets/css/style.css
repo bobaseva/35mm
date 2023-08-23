@@ -180,18 +180,24 @@ h2 {
 
 
 .about-text {
-    margin-top: 50px;
     padding: 5%;
 }
 
 .about-text h1 {
-    margin-left: 30px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .about-text p {
     background-color: #FFFFFF;
     padding: 20px;
     justify-content: center;
+}
+
+.about-info ul {
+    line-height: 30px;
+    list-style-type: none;
 }
 
 /* Portfolio section */
@@ -290,13 +296,39 @@ footer {
 /* Google Maps */
 
 iframe {
-    width: 100vh;
-    height: 300px;
+    width: 100%;
+    height: 200px;
     border: none;
     filter: grayscale(100%);
 }
 
+/* Contacts */
+
+#contacts {
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 2rem;
+    text-align: center;
+}
+
+h3 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 2rem;
+}
+
+#contacts ul {
+    line-height: 30px;
+    list-style-type: none;
+}
+
+#contacts i {
+    padding-right: 20px;
+}
+
 /* Social media icons alignment */
+
 #social {
     list-style-type: none;
     justify-content: space-evenly;
