@@ -9,6 +9,11 @@
 }
 
 /* General styles */
+
+html, body {
+    min-height: 100vh;
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -111,87 +116,13 @@ main {
 /* About section */
 
 .about-container {
-    display: flex;
-    flex-direction: column;
     background-color: #e8e8e8;
 }
 
-.pic-ctn {
-    width: 100%;
-    align-content: center;
-}
-
-@keyframes display {
-    0% {
-        transform: translateX(500px);
-        opacity: 0;
-    }
-
-    10% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    20% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    30% {
-        transform: translateX(-500px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(-500px);
-        opacity: 0;
-    }
-}
-
-.pic-ctn {
-    position: relative;
-    width: 100%;
-    margin-top: 50px;
-}
-
-.pic-ctn>img {
-    position: absolute;
-    top: 0;
-    left: calc(50% - 100px);
-    opacity: 0;
-    animation: display 36s infinite;
-}
-
-img:nth-child(2) {
-    animation-delay: 6s;
-}
-
-img:nth-child(3) {
-    animation-delay: 10s;
-}
-
-img:nth-child(4) {
-    animation-delay: 14s;
-}
-
-img:nth-child(5) {
-    animation-delay: 18s;
-}
-
-img:nth-child(6) {
-    animation-delay: 22s;
-}
-
-img:nth-child(7) {
-    animation-delay: 26s;
-}
-
-img:nth-child(8) {
-    animation-delay: 30s;
-}
 
 .about-text {
     margin-top: 50px;
+    padding: 5%;
 }
 
 .about-text h1 {
@@ -201,9 +132,7 @@ img:nth-child(8) {
 .about-text p {
     background-color: #FFFFFF;
     padding: 20px;
-    margin-left: 80px;
     justify-content: center;
-    margin-right: 80px;
 }
 
 /* Portfolio section */
@@ -226,7 +155,7 @@ img:nth-child(8) {
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 100%;
     margin-top: 50px;
     margin-bottom: 1px;
 }
@@ -361,5 +290,24 @@ footer {
     }
 }
 
+@media screen and (min-width: 1200px) {
 
+    /* Reasons section */
+    #about-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about-container>div {
+        flex: 1;
+    }
+
+    #pic-ctn {
+        order: 0
+    }
+
+    #about-text {
+        order: 1;
+    }
+}
 
