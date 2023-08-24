@@ -325,7 +325,7 @@ iframe {
 /* Media query: for small screen sizes from 576px wide and down */
 @media screen and (max-width: 580px) {
     .inquiry-form {
-            margin-top: 10px;
+            margin-top: 25px;
             padding: 10px;
     }
 }
