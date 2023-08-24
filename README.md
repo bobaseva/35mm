@@ -119,7 +119,7 @@ Images used for Portfolio and background were sourced from Pexels.com. All image
 Desktop version nav bar with menu
 ![alt text](assets/READMEfiles/nav_desctop.jpg)
 
-Mobile version nav bar hamburger menu
+Mobile version nav bar hamburger menu<br>
 ![alt text](assets/READMEfiles/nav_mobile.jpg)
 
 
@@ -283,7 +283,7 @@ All content was written and created by the developer.
 
 ###  Media
 
-Images were downloaded from royalty free website pexels.com (<https://www.pexels.com).
+Images were downloaded from royalty free website pexels.com (https://www.pexels.com).
 
   
 ###  Acknowledgments
