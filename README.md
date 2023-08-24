@@ -1,6 +1,6 @@
 # 35mm Phototgraphy
 
-![fully responsive website example image](assets/READMEfiles/features/amIresponsive.jpg)
+![fully responsive website example image](assets/READMEfiles/amIresponsive.jpg)
 [View deployed project here](https://bobaseva.github.io/35mm/index.html)
 ---
 
@@ -11,7 +11,7 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [User stories](#user-stories)
-    - [BUsiness Goals](#business-goals)
+    - [Business Goals](#business-goals)
     - [User goals](#user-goals)
   - [Design](#design)
     - [Colour Scheme](#colour-scheme)
@@ -58,7 +58,7 @@ This website was built as a project for Diploma in Full Stack Software Developme
 
 ## User stories
 
-### BUsiness Goals
+### Business Goals
 
 1.	To introduce business for potential customers
 2.	To familiarise existing and potential customers with the product
@@ -149,7 +149,7 @@ The About page features short summary about the photographer’s career path fol
 
 The Portfolio is the main part of the photographer’s business, thus this page was created as the centre of the website showcasing beautiful gallery of black and white photographs. This gallery has very responsive layout going from 4 columns to 2 and ending with 1 column, all according to the size of the screen.
 
-![alt text](assets/READMEfiles/POrtfoliopage.jpg)
+![alt text](assets/READMEfiles/Portfoliopage.jpg)
 
 
 ### Contact
@@ -169,20 +169,20 @@ Aria-labels for screen readers are implemented at certain places, also semantic 
 
 ## Programs and Applications
 
-**GitHub** – storage and deployment
-**Codeanywhere** – IDE used to write, edit, commit and push the code to GitHub
-**Google Fonts** – import font
-**Shutterstock Image-resizer** – compress images
-**Font Awesome**- import social media and contact icons
-**Favicon Generator Website** – convert logo  
-**Balsamiq** – wireframes design
-**Am I Responsive?** – check responsiveness of the website
-**Google Maps** – embed map location
+**GitHub** – storage and deployment<br>
+**Codeanywhere** – IDE used to write, edit, commit and push the code to GitHub<br>
+**Google Fonts** – import font<br>
+**Shutterstock Image-resizer** – compress images<br>
+**Font Awesome**- import social media and contact icons<br>
+**Favicon Generator Website** – convert logo<br>
+**Balsamiq** – wireframes design<br>
+**Am I Responsive?** – check responsiveness of the website<br>
+**Google Maps** – embed map location<br>
 
 
 ### Languages
 
-**HTML**
+**HTML**<br>
 **CSS**
 
 
@@ -229,13 +229,12 @@ Every page of the website was validated using the W3C tool.
 ### Performance
 
 Website performance was checked with Lighthouse tool.
-![alt text](assets/READMEfiles/lighthouse.jpg)
+![alt text](assets/READMEfiles/lighthouse1.jpg)
 
 ### Accessibility
 
-To check accessibility the Wave Web Accessibility Evaluation tool was used. One error was detected due to the page design and lack of Heading on the page
+To check accessibility the Wave Web Accessibility Evaluation tool was used. One error was detected due to the page design and lack of Heading on the page.<br>
 ![alt text](assets/READMEfiles/wave.jpg)
-
 
 
 ### Manual Testing
@@ -262,6 +261,7 @@ Laptop:
 Mobile Devices:
 * Samsung Galaxy Z Fold 4
 * Google Pixel 6
+  
 Mobile Devices:
 * Google Chrome
 * Firefox
