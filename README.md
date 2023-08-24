@@ -1,4 +1,4 @@
-# 35mm Phototgraphy
+# 35mm Photography
 
 ![fully responsive website example image](assets/READMEfiles/amIresponsive.jpg)
 [View deployed project here](https://bobaseva.github.io/35mm/index.html)
@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-- [35mm Phototgraphy](#35mm-phototgraphy)
+- [35mm Photography](#35mm-photography)
   - [View deployed project here](#view-deployed-project-here)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
