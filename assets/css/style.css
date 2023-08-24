@@ -22,6 +22,7 @@ body {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
 } 
+
 /* Header */
 
 header {
@@ -80,6 +81,7 @@ header a {
 }
 
 /* Navbar dropdown toggle */
+
 nav {
     position: absolute;
     background-color: #e8e8e8;
@@ -91,6 +93,7 @@ nav {
 }
 
 /* Nav toggle */
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -104,6 +107,7 @@ nav {
 }
 
 /* Main content */
+
 main {
     background-color: #e8e8e8;
     flex: 1 0 auto;
@@ -277,11 +281,12 @@ main {
 }
 
 /* Footer */
+
 footer {
     background-color: #e8e8e8;
 }
 
-/* Google Maps */
+/* Google Maps from About section */
 
 iframe {
     width: 100%;
@@ -290,7 +295,7 @@ iframe {
     filter: grayscale(100%);
 }
 
-/* Contacts */
+/* Contacts from About section */
 
 #contacts {
     margin-bottom: 70px;
@@ -298,12 +303,6 @@ iframe {
     text-transform: uppercase;
     line-height: 2rem;
     text-align: center;
-}
-
-h3 {
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    line-height: 2rem;
 }
 
 #contacts ul {
@@ -338,7 +337,7 @@ h3 {
     }
 }
 
-/* Media query: for large devices (992px and up) */
+/* Media query: for devices 992px and up) */
 @media screen and (min-width: 992px) {
 
     /* Portfolio */
@@ -348,7 +347,7 @@ h3 {
     }
 }
 
-/* Media query: for large devices (992px and up) */
+/* Media query: for devices 992px and up */
 @media screen and (min-width: 1147px) {
 
     /* Header */
@@ -378,6 +377,7 @@ h3 {
     }
 }
 
+/* Media query: for devices 1200px and up */
 @media screen and (min-width: 1200px) {
 
     /* Reasons section */
