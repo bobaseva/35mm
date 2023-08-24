@@ -179,6 +179,7 @@ main {
     letter-spacing: 7px;
     text-transform: uppercase;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .about-text p {
@@ -276,10 +277,6 @@ main {
     cursor: pointer;
 }
 
-#thank-you {
-    max-width: 800px;
-}
-
 /* Footer */
 
 footer {
@@ -325,9 +322,15 @@ iframe {
 }
 
 
+/* Media query: for small screen sizes from 576px wide and down */
+@media screen and (max-width: 580px) {
+    .inquiry-form {
+            margin-top: 10px;
+            padding: 10px;
+    }
+}
 
-
-/* Media query: large or landscape phones (576px and up) */
+/* Media query: for large or landscape phones 576px and up */
 @media screen and (min-width: 576px) {
 
     /* Portfolio */
@@ -337,7 +340,7 @@ iframe {
     }
 }
 
-/* Media query: for devices 992px and up) */
+/* Media query: for devices 992px and up */
 @media screen and (min-width: 992px) {
 
     /* Portfolio */
